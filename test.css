@@ -2,6 +2,60 @@ body{
 	background: orange;
 	margin:0;
 }
+
+
+#main-header{
+	background-image:url('images/plc.jpeg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 1000px;
+	position:relative;
+	overflow: hidden;
+
+}
+#showcase{
+	display: flex;
+	align-self:flex-end;
+	position: absolute;
+	left:40%;
+	right:2%;
+	min-height:200px;
+	bottom:-2%;
+	color:#eee;
+	font-weight:bold;
+	line-height: 1.6em;
+	font-family: Tahoma,Geneva,sans-serif;
+	/*min-height:300px;*/
+}
+#myImage{
+	border-radius: 50%;
+	position: fixed;
+
+}
+#searchBtn{
+	position: fixed;
+	top:55px;
+	/*min-height:300px;*/
+}
+#main-header h1{
+	display: inline;
+	top:40px;
+	padding-left:150px;
+	position: fixed;
+
+}
+.input-div{
+
+	left:60%;
+	position: absolute;
+	/*top:-65px;*/
+
+}
+.input-div >input{
+	padding-left:100px;
+	height:30px;
+	font-size:20px;
+}
 .container{
 	width:50%;
 	margin:auto;
@@ -30,59 +84,7 @@ body{
 	font-size:30px;
 	border-radius:12px;
 }
-.btn input{
 
-
-}
-.myList{
-
-}
-#main-header{
-	background-image:url('images/plc.jpeg');
-	background-position: center center;
-	background-repeat: no-repeat;
-	height: 1000px;
-	position:relative;
-
-}
-#main-header p{
-	position: absolute;
-	left:1000px;
-	right:20px;
-	bottom:40px;
-	color:#eee;
-	font-weight:bold;
-	line-height: 1.6em;
-	font-family: Tahoma,Geneva,sans-serif;
-}
-#main-header img{
-	border-radius: 50%;
-	position: fixed;
-
-}
-#main-header input{
-	position: fixed;
-	top:40px;
-}
-#main-header h1{
-	display: inline;
-	position: relative;
-	top:40px;
-	padding-left:150px;
-	position: fixed;
-
-}
-.input-div{
-	padding-left:1600px;
-	position: relative;
-	top:-65px;
-
-}
-.input-div >input{
-	padding-left:100px;
-	height:30px;
-	font-size:20px;
-}
 #main-footer{
 	margin-top:40px;
 	height:300px;
@@ -122,13 +124,20 @@ border-radius:10px;
 padding-left:10px;
 
 }
+
 .list-item {
 	border-bottom: 3px solid #cdc;
 	list-style: none;
 	margin-bottom: 10px;
 	background-color:#ade;
 }
-.list-item .btn2{
+.btn-div{
+	position: absolute;
+	left:680px;
+	display: inline;
+	left:70%;
+}
+.btn2{
 	
 	background: red;
 	position: relative;
@@ -136,14 +145,9 @@ padding-left:10px;
 	display: inline;
 	/*top:-20px;*/
 	color:#fff;
-	left:800px;
+	
 	height:30px;
 	width: 40px;
 	border-radius: 50%;
 
-}
-.btn-div{
-	position: absolute;
-	left:680px;
-	display: inline;
 }
