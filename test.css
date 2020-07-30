@@ -1,0 +1,149 @@
+body{
+	background: orange;
+	margin:0;
+}
+.container{
+	width:50%;
+	margin:auto;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size:30px;
+}
+.my-form {
+
+}
+.my-form >input {
+	display: block;
+	width:100%;
+	box-sizing: border-box;	
+	font-size:20px;
+	padding-left:5px;
+	border-radius:12px;
+
+}
+.Submit{
+	/*padding-top:10px;*/
+	margin-top: 20px;
+	background: black;
+	color:yellow;
+	border: none;
+	display:flex;
+	font-size:30px;
+	border-radius:12px;
+}
+.btn input{
+
+
+}
+.myList{
+
+}
+#main-header{
+	background-image:url('images/plc.jpeg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 1000px;
+	position:relative;
+
+}
+#main-header p{
+	position: absolute;
+	left:1000px;
+	right:20px;
+	bottom:40px;
+	color:#eee;
+	font-weight:bold;
+	line-height: 1.6em;
+	font-family: Tahoma,Geneva,sans-serif;
+}
+#main-header img{
+	border-radius: 50%;
+	position: fixed;
+
+}
+#main-header input{
+	position: fixed;
+	top:40px;
+}
+#main-header h1{
+	display: inline;
+	position: relative;
+	top:40px;
+	padding-left:150px;
+	position: fixed;
+
+}
+.input-div{
+	padding-left:1600px;
+	position: relative;
+	top:-65px;
+
+}
+.input-div >input{
+	padding-left:100px;
+	height:30px;
+	font-size:20px;
+}
+#main-footer{
+	margin-top:40px;
+	height:300px;
+	background-color: #ded;
+	position: relative;
+	top:300px;
+	position: relative;
+	box-sizing: border-box;
+	display: grid;
+	grid-template-rows:1fr 1fr 1fr; 
+	justify-items:center;
+
+}
+.img-logo{
+	top:20px;
+	border-radius:50%;
+	padding-left: 10px;
+	box-sizing: border-box;
+}
+.h4-tag{
+	display: inline;
+	position: relative;
+	text-align: center;
+}
+.addItems{
+	display: inline;
+}
+.addItems input{
+	font-size: 25px;
+	width:90%;
+	border-radius:10px;
+
+}
+#btn-click{
+font-size: 25px;
+border-radius:10px;
+padding-left:10px;
+
+}
+.list-item {
+	border-bottom: 3px solid #cdc;
+	list-style: none;
+	margin-bottom: 10px;
+	background-color:#ade;
+}
+.list-item .btn2{
+	
+	background: red;
+	position: relative;
+	/*margin-left: 490px;*/
+	display: inline;
+	/*top:-20px;*/
+	color:#fff;
+	left:800px;
+	height:30px;
+	width: 40px;
+	border-radius: 50%;
+
+}
+.btn-div{
+	position: absolute;
+	left:680px;
+	display: inline;
+}
